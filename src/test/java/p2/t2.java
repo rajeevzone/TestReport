@@ -1,3 +1,5 @@
+package p2;
+
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 

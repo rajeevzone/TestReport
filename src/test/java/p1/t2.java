@@ -1,11 +1,11 @@
-
-
-import static org.testng.Assert.fail;
+package p1;
 
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-public class t1 {
+import static org.testng.Assert.fail;
+
+public class t2 {
 
 	@Test
 	public void a1() {
@@ -24,6 +24,8 @@ public class t1 {
 	@Test
 	public void a4() {
 		System.out.println("a4");
+		System.out.println("a6");
+		fail("failed");
 	}
 	@Test
 	public void a5() {
